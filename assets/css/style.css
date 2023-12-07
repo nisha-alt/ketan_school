@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;500;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@100;200;300;500;700&family=Sacramento&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    font-family: "catamaran","sans-serif";
+    
+}
+/* Universal CSS Start */
+.text-orange{color:#EA512E;}
+.text-black{color:#1B0238;}
+.text-silver{color:#686B84;}
+.bg-orange{background-color: #EA512E;}
+.bg-yellow{background-color: #f5890d;}
+.bg-lightyellow{background: #fdf6ed;}
+.bg-lightorange{background-color: #fee9ca;}
+.bg-pink{background-color: #fbc9d5 !important;}
+.mt-6{margin-top:60px;}
+.mt-7{margin-top:70px;}
+.mt-8{margin-top:80px;}
+.mt-9{margin-top:90px;}
+.mt-10{margin-top:100px;}
+.mt-15{margin-top:150px;}
+.mt-20{margin-top:200px;}
+.ms-10{margin-right:0px;}
+.pb-100{padding-bottom:100px;}
+.pt-100{padding-top:100px;}
+.top-4{top:4%;}
+.top-10{top:10%;}
+.top-20{top:20%;}
+.fs-60{font-size: 60px;}
+h1,h1,h3,h4,h5,h6{
+    color:#1B0238;
+    font-family: "catamaran","sans-serif";
+    font-weight: bold;
+}
+.btn{
+
+    color:#fff;
+    display: inline-block;
+    padding:12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #EA512E;
+    transition: 0.5s ease;
+
+
+}
+.btn:hover{
+    background-color: #f5890d;
+    color:#fff;
+}
+p{
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color:#6b6b84;
+    font-family:"roboto","sans-serif",;
+    font-size: 16px;
+}
+/* nav Section start */
+.icon1{
+    font-size: 12px !important;
+    line-height: 1;
+    font-weight: 400;
+}
+.navbar-nav .nav-item a{
+    font-size: 16px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#EA512E !important;
+    transition: 0.2s linear;
+}
+.dropdown-menu{
+    width:280px;
+    top:50px;
+    position:absolute;
+    transition: all 0.5s ease-in;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: -10px;
+}
+
+
+/* nav Section End */
+
+/* Universal CSS End */
+/* Banner Section Start */
+.banner{
+    width:100%;
+    background: url('../img/main-banner-bg.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: 100% 100%;
+
+}
+.shape-1{
+    top:3.5%;
+    left:.7%;
+    animation: move 3s linear alternate infinite;
+}
+.shape-2{
+    top:3.5%;
+    left:50%;
+   
+    animation: move2 3s linear alternate infinite;
+}
+.shape-3{
+    top:67%;
+    left:.7%;
+    z-index:9;
+    animation:move3 3s linear alternate infinite;
+}
+.shape-4{
+    top:67%;
+    left:50%;
+    animation:move4 3s linear alternate infinite;
+
+}
+
+.bg-btn{background-color: #f5890d;transition: 0.5s ease;}
+.bg-btn:hover{background-color: #EA512E;}
+/* Banner Section End */
+/* Who we are section start */
+.who span,
+.cvalue span,
+.popular span,
+.teacher span,
+.testimonial span{
+    font-size:20px;
+    font-weight: 600;
+    font-family: "Sacramento", cursive;
+    color:#EA512E;
+    
+    
+    
+}
+.who h3,.popular h3,.cvalue h3,.teacher h3,.testimonial h3{
+    font-size:45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.who ul li {
+    line-height:40px;
+    font-weight:600;
+}
+.who ul li span{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background-color: #EA512E;
+    color:#fff;
+    display:inline-block;
+    text-align: center;
+    font-family: "catamaran","sans-serif";
+    line-height:30px;
+    font-size:16px;
+    margin-right:10px;
+    font-weight: 800;
+
+}
+.who ul li:hover span{
+    background-color:#f5890d;
+    transition:all 0.5s ease-in;
+}
+.who .shape-5{
+    left:90%;
+    right:0%;
+    animation: move5 3s linear alternate infinite;
+}
+
+/* Who we are section end */
+/* popular class section start */
+.popular .card:hover img{
+    transform:rotate(2deg) scale(1.07);
+    transition:all 0.3s linear;
+
+}
+.popular .card:hover h3{
+    color:#EA512E !important;
+}
+.popular h3 a{
+    font-size: 25px;
+}
+.class-list{
+    border-top:1px dashed #EA512E;
+}
+.class-list li{
+    font-size:15px;
+    font-weight:600;
+    color:#1B0238;
+    font-family: "Roboto", sans-serif !important;
+
+
+}
+.class-list .list-subheading{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif !important;
+
+}
+.price{
+    top:0;
+    right:0;
+    background-color: #EA512E;
+    color:#fff !important;
+    border-radius:0px 0px 0px 10px;
+    font-size:20px;
+    transition: 0.5s ease;
+    
+    
+}
+.price:hover{
+    background-color:#f5890d ;
+}
+.shape-6{
+    margin-left:-15px;
+}
+.shape-7{
+    bottom:0;
+    right:0;
+    left:80%;   
+
+
+}
+
+/* popular class section end */
+/* core value section start */
+.cvalue .number{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    margin-top:1.5%;
+    margin-right: 20px;
+    display:inline-block;
+    border:0px solid #fff;
+    outline:2px solid #d3f5fe;
+    outline-offset: 4px;
+    background-color:#d3f5fe;
+    cursor:pointer;
+    transition: 0.5s;
+}
+.bg-1{
+    background-color:#fce0ad !important;
+    outline:2px solid #fce0ad !important;
+}
+.bg-2{
+    background-color: #fbc9d5 !important;
+    outline: 2px solid #fbc9d5 !important;
+}
+.cvalue .number:hover{
+    color:#fff;
+    background-color: #EA512E !important;
+    outline-color:#EA512E;
+    transition: 0.5s;
+}
+.cvalue .shape-8{
+    right:0;
+    bottom:20%;
+    left:80%;
+}
+/* core value section end */
+/* teacher section start */
+.teacher{
+    background: url(../img/teacher-bg.jpg
+    
+    );
+}
+.teacher .social-media{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    margin-bottom:-70px;
+    color:#fff !important;
+    transition:all 0.5s ease-in;
+}
+.teacher .teacher-image:hover .social-media{
+    margin-bottom:30px;
+    transition:0.5s;
+}
+.teacher .social-media li a{
+    width:30px;
+    height:30px;
+    background-color: #EA512E;
+    border-radius: 50%;
+    line-height: 32px;
+    color:#fff !important;
+}
+/* teacher section end */
+
+/* Testimonial Section Start */
+.testimonial .nav-button button{
+    height:50px;
+    width:50px;
+    background-color:#EA512E;
+    color:#fff;
+    border-radius: 50%;
+    line-height: 8px;
+    text-align:center;
+    font-size: 45px !important;
+    font-weight: 800 !important;
+    
+}
+
+/* Testimonial Section End */
+/* Animation Section Start */
+@keyframes move{
+    0%{}
+    100%{left:3%;}
+}
+@keyframes move2{
+    0%{}
+    100%{left:53%;}
+}
+@keyframes move3{
+    0%{}
+    100%{left:2%;}
+}
+@keyframes move4{
+    0%{}
+    100%{left:53%;}
+}
+@keyframes move5{
+    0%{}
+    100%{left:87%;}
+}
+/*  Animation Section End*/
